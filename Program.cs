@@ -24,3 +24,14 @@
 // Console.WriteLine(max + " является max");
 
 
+
+Console.Write("Введите число N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+if (N % 2 == 0)
+{
+    Console.WriteLine("число чётное");
+}
+else
+{
+    Console.WriteLine("число нечётное");
+}
